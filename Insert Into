@@ -1,5 +1,4 @@
-use CHUB
-Insert into  [CHUB].[dbo].[tbl_SoftwareCrossReference]
+Insert into  [CHUB].[dbo].[tbl]
 (Auto_Customer_ID,Compliance_ID,Design_ID,software_type_id,Discovery_ID,date_created,created_by)
 VALUES 
 
