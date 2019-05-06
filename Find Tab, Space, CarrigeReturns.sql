@@ -1,4 +1,4 @@
-select * from [IaaSD].[dbo].[tbl_Software]
+select * from [dbo].[tbl]
 WHERE 
 [SYSTEM_SUBSYST_NAME] LIKE '%' + CHAR(10) + '%'
   or [SYSTEM_SUBSYST_NAME] LIKE '%' + CHAR(13) + '%'
@@ -6,6 +6,6 @@ WHERE
 
 
 
-  --update [IaaSD].[dbo].[tbl_Software]
-  --set [SYSTEM_SUBSYST_NAME] = Replace([SYSTEM_SUBSYST_NAME], char(13), '')
+  --update [dbo].[tbl]
+  --set [NAME] = Replace([NAME], char(13), '')
 
